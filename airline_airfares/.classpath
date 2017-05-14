@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/lib/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/lib/commons-collections4-4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/lib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/lib/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/lib/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/poi-3.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/poi-examples-3.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/poi-excelant-3.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/poi-ooxml-3.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/poi-3.16/poi-scratchpad-3.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="spark_dependencies/spark-core_2.10-2.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="hadoop_dependencies/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="hadoop_dependencies/hadoop-common-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="hadoop_dependencies/hadoop-mapreduce-client-common-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="hadoop_dependencies/hadoop-mapreduce-client-core-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="hadoop_dependencies/hadoop-mapreduce-client-jobclient-2.7.3.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

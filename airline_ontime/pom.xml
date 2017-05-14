@@ -1,0 +1,21 @@
+    <project>
+      <groupId>csu.cs455</groupId>
+      <artifactId>Ontime-Analysis</artifactId>
+      <modelVersion>4.0.0</modelVersion>
+      <name>Analysis Driver</name>
+      <packaging>jar</packaging>
+      <version>1.0</version>
+      <dependencies>
+        <dependency> <!-- Spark dependency -->
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-core_2.11</artifactId>
+          <version>2.1.0</version>
+          <scope>provided</scope>
+        </dependency>
+        <dependency> <!-- Spark SQL -->
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+      </dependencies>
+    </project>

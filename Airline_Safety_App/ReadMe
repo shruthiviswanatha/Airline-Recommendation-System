@@ -1,0 +1,24 @@
+# For my analysis I have used hdfs, SparkR, Rshiny and R. 
+# I implemented my spark job using R and visualization using Rshiny. 
+
+# command to run my app under spark home directory
+# In my case 
+shruthi5@boston:~ cd Term_Project/spark-2.1.0-bin-hadoop2.7/
+# run the command to launch spark job 
+./bin/spark-submit ~/TermProject/arlSftySparkAnlysApp/drvSparkrAnlys.R
+# To perform interactive visual analysis of the data using the stored file on local file system
+Rscript  ~/TermProject/arlSftySparkAnlysApp/drvAppFn.R
+
+# Spark job starts and after a while we get to see "Listening on http://127.0.0.1:portNo." in the command prompt
+# Open firefox and submit "localhost:portNo." in the search tab
+# It opens up a interactive data visualization app which I have already shared in the mail.
+
+#  drvSparkrAnlys.R reads dataset from hdfs and performs some preliminary analysis on it and writes the output into a csv file in local file system.
+
+#  drvAppFn.R reads output file from local file system and calls a function kmeansAnlys (present in kmeansAnlysAppFn.R) which contains the ui and server part of code.
+
+# kmeanAnlysAppFn.R contains the UI and server part of the code and the server part of code calls few functions in kmeansAnlys.R file such as plotCat, filtByCat where the kmeans 
+# algorithm works and clusters each datapoints which belongs to 3 types of clusters and plots and list according to the requirement.
+
+
+
